@@ -11,9 +11,10 @@ Con este repositorio de pruebas se prueban las habilidades de los candidatos:
 
 Especificación de la prueba.
   Se necesita un desarrollo básico a través del cual pintar por pantalla un formulario con un único botón que al pulsarlo cargue por
-  ajax el contenido de la variable globar $_SERVER. Los datos de dicha variable no pueden devolverse mediante un echo ni a 
-  través de ninguna función que utilice de output la pantalla, sino que se devolverá por json y se parseará y pintará desde
-  el cliente. Se recomienda usar la librería jQuery para facilitar la programación.
+  ajax el contenido de la variable globar $_SERVER ordenado por las claves en orden inverso. 
+  Los datos de dicha variable no pueden devolverse mediante un echo ni a través de ninguna función que utilice de output 
+  la pantalla, sino que se devolverá por json y se parseará y pintará desde el cliente en una lista ordenada. 
+  Se recomienda usar la librería jQuery para facilitar la programación.
   Una vez realizada la prueba se deberá comitear a éste mismo repositorio para que se pueda evaluar.
   
 Tiempo máximo: 1 día.
